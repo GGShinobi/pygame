@@ -84,7 +84,7 @@ You can also change the ``Group`` membership for the ``Sprite`` with the
 there is also a :meth:`groups() <pygame.sprite.Sprite.groups>` method,
 which returns a list of the current groups containing the sprite.
 
-When using the your Sprite classes it's best to think of them as "valid" or
+When using your Sprite classes it's best to think of them as "valid" or
 "alive" when they are belonging to one or more ``Groups``. When you remove the
 instance from all groups pygame will clean up the object. (Unless you have your
 own references to the instance somewhere else.) The :meth:`kill()
